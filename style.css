@@ -1,0 +1,51 @@
+.font{
+    font-size: 25px;
+}
+
+body{
+    background-color: #FBD139;
+}
+
+h1{
+    background-color: lemonchiffon;
+    color: red;
+    margin-left: 20px;
+}
+
+p{
+    padding-top: 10px;
+}
+
+.b{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.c{
+    margin-left: 150px;
+}
+
+canvas{
+    animation-duration: 4s;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    border-radius: 5px;
+}
+
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 30px grey;
+    }
+    to{
+        box-shadow: 1px 1px 30px white;
+    }
+}
+
+.c{
+    margin-top: 100px;
+}
+
+.modal-header{
+    background-color: white;
+}
